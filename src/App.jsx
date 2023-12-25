@@ -8,7 +8,7 @@ import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 function App() {
   return (
     <main className="bg-[#f4d04e] h-screen w-screen flex flex-col justify-center items-center">
-      <div className="bg-white max-w-[325px] md:max-w-[350px] p-5 rounded-xl flex flex-col gap-4 border-2 border-black shadow-[5px_5px_0px_1px_#000000]">
+      <div className="bg-white max-w-[325px] md:max-w-[350px] p-5 rounded-xl flex flex-col gap-4 border-[1.5px] border-black shadow-[5px_5px_0px_1px_#000000]">
         <img src={Logo} alt="illustration" className="m-auto rounded-xl"></img>
 
         {/* Card body */}
